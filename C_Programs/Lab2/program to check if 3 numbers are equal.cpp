@@ -9,4 +9,5 @@ if (a==b&&b==c)
 else
 	printf("all the three numbers are not equal.");
 }
+/* here the case for all three being equal and any two being equal is also works(because of else and else if) */
 	
