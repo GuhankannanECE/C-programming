@@ -2,13 +2,9 @@
 
 int main() {
     int num, reversedNum = 0, originalNum, remainder;
-
-    // Input the number
     printf("Enter an integer: ");
     scanf("%d", &num);
-
     originalNum = num; // Store the original number
-
     while (num != 0) {
         remainder = num % 10;
         reversedNum = reversedNum * 10 + remainder;
