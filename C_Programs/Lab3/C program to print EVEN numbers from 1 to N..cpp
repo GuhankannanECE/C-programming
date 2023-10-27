@@ -2,12 +2,8 @@
 
 int main() {
     int N;
-    
-    // Input the value of N
     printf("Enter the value of N: ");
     scanf("%d", &N);
-    
-    // Check if N is less than 2
     if (N < 2) {
         printf("There are no even numbers between 1 and %d\n", N);
     } else {
