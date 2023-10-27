@@ -13,12 +13,9 @@ int main() {
     }
 
     int distinctCount = 0;
-
-    // Initialize previous to an out-of-range value
     int previous = arr[0] + 1;
 
     for (int i = 0; i < n; i++) {
-        // Check if the absolute value of the current element is different from the previous one
         if (abs(arr[i]) != previous) {
             distinctCount++;
         }
