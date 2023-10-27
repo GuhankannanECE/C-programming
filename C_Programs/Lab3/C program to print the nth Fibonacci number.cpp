@@ -3,11 +3,8 @@
 int main() {
     int n;
     int first = 0, second = 1, next;
-
-    // Input the value of n
     printf("Enter the value of n: ");
     scanf("%d", &n);
-
     if (n < 0) {
         printf("Fibonacci numbers are not defined for negative values of n.\n");
     } else if (n == 0) {
@@ -20,8 +17,7 @@ int main() {
             first = second;
             second = next;
         }
-        printf("The %dth Fibonacci number is %d\n", n, first);
-        //first rather than second because fibonacci series :0,1,1,2,3,5... 
+        printf("The %dth Fibonacci number is %d\n", n, first); 
     }
 
     return 0;
