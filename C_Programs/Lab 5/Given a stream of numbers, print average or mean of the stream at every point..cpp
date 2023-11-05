@@ -12,10 +12,10 @@ int main() {
         printf("Enter element %d: ", i);
         scanf("%d", &num);
 
-        sum += num;  // Add the new number to the sum
-        float average = (float)sum / i;  // Calculate the running average
+        sum += num;  
+        float average = sum / i; 
         printf("%.2f ", average); 
-		printf("\n"); // Print the running average with two decimal places
+		printf("\n");
     }
 
     printf("\n");
