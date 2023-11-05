@@ -23,7 +23,6 @@ int main() {
     // Check if the specified position is valid
     if (position < 1 || position > n + 1) {
         printf("Invalid position\n");
-        return 1;
     }
 
     // Shift elements to make space for the new value
